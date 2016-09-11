@@ -22,6 +22,8 @@
 #include "platforms/arm/d21/fastled_arm_d21.h"
 #elif defined(ESP8266)
 #include "platforms/esp/8266/fastled_esp8266.h"
+#elif defined(PLATFORM_DUMMY)
+// No platform headers
 #else
 // AVR platforms
 #include "platforms/avr/fastled_avr.h"
